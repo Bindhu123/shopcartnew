@@ -1,0 +1,7 @@
+<div class="cart-item" *ngIf="cartItem.qty">
+<span>{{cartItem.productName}}</span>&times;
+<span>{{cartItem.qty}}</span>
+ <strong> {{ (cartItem.qty * cartItem.price) | currency:'INR' }} </strong>
+
+    <button class="btn btn-danger btn-sm" (click)="delProduct($event)">del</button>
+</div>

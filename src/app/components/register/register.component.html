@@ -1,0 +1,71 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-form-card card">
+           
+                <div class="card-header text-center">
+                    <h2>Register here</h2>
+                </div>
+                <div class="card-body">
+                <form  [formGroup]="registerForm" (ngSubmit)="register()">
+                    <div class="form-group">
+                        <label for="name">name</label>
+                        
+                        <input id="name"  
+                        class="form-control"
+                        [ngClass] ="{'is-invalid': registerForm.get('name').touched &&  registerForm.get('name').invalid }"  
+                        formControlName="name">
+                        <span class="invalid-feedback">name cant be blank</span>
+                                            
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">name</label>                        
+                        <input id="email"  class="form-control"  
+                        [ngClass] ="{'is-invalid': registerForm.get('email').touched &&  registerForm.get('email').invalid }"
+                        formControlName="email">
+                        <span class="invalid-feedback">
+                            <span *ngIf=" registerForm.get('email').hasError('required')">email cant be blank</span>
+                        <span *ngIf=" registerForm.get('email').hasError('email')">email must be valid</span>                      
+                        </span>
+                      </div>
+                    <div class="form-group">
+                        <label for="usename">username</label>
+                        
+                        <input id="username"  class="form-control"
+                        [ngClass] ="{'is-invalid': registerForm.get('username').touched &&  registerForm.get('email').invalid }"  
+                        formControlName="username">
+                        <span class="invalid-feedback">username cant be blank</span>
+                        
+                      
+                    </div>
+                        <div class="form-group">
+                            <label for="password">password</label>
+                            <input type="password" id="password" class="form-control" 
+                            [ngClass] ="{'is-invalid': registerForm.get('password').touched &&  registerForm.get('email').invalid }" 
+                            formControlName="password">
+                        <span class="invalid-feedback">
+                            <span *ngIf="registerForm.get('password').hasError('required')"> password cant be blank</span>
+                        <span *ngIf="registerForm.get('password').hasError('symbol')">password must contain @ symbol</span>
+                        <span *ngIf="registerForm.get('password').hasError('minlength')">password must contain 6 characters</span>
+                        </span>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmpassword">password</label>
+                            <input type="password" id="confirmpassword" 
+                            class="form-control" 
+                            [ngClass] ="{'is-invalid': registerForm.get('confirmPassword').touched &&  registerForm.get('email').invalid }"
+                            formControlName="confirmPassword" >
+                        <span class="invalid-feedback">password must match</span>
+                            
+                        </div>
+                       
+                        <button  class="btn btn-primary btn-block" [disabled]="registerForm.invalid">Register</button>
+                    </form>
+
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+

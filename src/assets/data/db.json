@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "phone1",
+      "desc": "desc1",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "phone2",
+      "desc": "desc2",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "phone3",
+      "desc": "desc3",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+      "price": 400
+    },
+    {
+      "id": 4,
+      "name": "phone4",
+      "desc": "desc4",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+      "price": 300
+    },
+    {
+      "id": 5,
+      "name": "phone5",
+      "desc": "desc5",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "name": "phone6",
+      "desc": "desc6",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+      "price": 600
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 4
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "phone1",
+        "desc": "desc1",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 100
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "phone2",
+        "desc": "desc2",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 200
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "phone3",
+        "desc": "desc3",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 400
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "phone1",
+        "desc": "desc1",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 100
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "phone2",
+        "desc": "desc2",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 200
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "phone2",
+        "desc": "desc2",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 200
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "phone3",
+        "desc": "desc3",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 400
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "phone4",
+        "desc": "desc4",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 300
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "phone5",
+        "desc": "desc5",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 500
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "phone1",
+        "desc": "desc1",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 100
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "phone2",
+        "desc": "desc2",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 200
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "phone2",
+        "desc": "desc2",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYOKb_2_ZQOoI7FH7dkaXFCq7jXVOTw43Pw&usqp=CAU",
+        "price": 200
+      },
+      "id": 15
+    }
+  ]
+}
