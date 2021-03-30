@@ -49,8 +49,7 @@ export class RegisterComponent implements OnInit {
       confirmPassword: '',
     }, {
       validators: passwordsMatchValidator
-    });
-
+    });    
   }
 
   register() {
